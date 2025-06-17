@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Tracker Pro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // or 'media'
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              light: '#4F46E5', // Indigo 600
+              DEFAULT: '#4338CA', // Indigo 700
+              dark: '#3730A3'  // Indigo 800
+            },
+            secondary: {
+              light: '#10B981', // Emerald 500
+              DEFAULT: '#059669', // Emerald 600
+              dark: '#047857'  // Emerald 700
+            },
+            background: {
+              light: '#F9FAFB', // Gray 50
+              dark: '#1F2937'   // Gray 800
+            },
+            surface: {
+              light: '#FFFFFF',
+              dark: '#374151' // Gray 700
+            },
+            textlight: {
+              primary: '#111827', // Gray 900
+              secondary: '#6B7280' // Gray 500
+            },
+            textdark: {
+              primary: '#F9FAFB', // Gray 50
+              secondary: '#D1D5DB' // Gray 300
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-DXK1gN01.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark transition-colors duration-300">
+  <div id="root"></div>
+</body>
+</html>
+    
